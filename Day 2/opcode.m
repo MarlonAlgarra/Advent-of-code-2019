@@ -1,6 +1,4 @@
 function c=opcode(inp,j,k)
-%UNTITLED Summary of this function goes here
-%   Detailed explanation goes here
 inp(2)=j; inp(3)=k;
 for i=1:4:length(inp)
     if i<145
